@@ -1,0 +1,31 @@
+.index-hero-carousel .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    padding: 0;
+    text-align: left;
+    color: var(--white);
+}
+.index-hero-carousel .carousel-indicators [data-bs-target] {
+    width: 2.4rem;
+    background-color: var(--white);
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.index-hero-carousel .carousel-caption .section-title {
+    color: var(--white);
+    margin: 1rem 0 4rem;
+    max-width: 58rem;
+    width: 100%;
+}
+.index-hero-carousel .carousel-caption h6 {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+}
+.index-hero-carousel .carousel-caption h6 span {
+    font-weight: 400;
+}
+.index-hero-carousel .carousel-caption h6.deadline {
+    margin-bottom: .6rem;
+}
