@@ -1,7 +1,9 @@
 .index-hero-carousel .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
-    left: 10%;
+    left: 4.8rem;
+    right: auto;
+    bottom: auto;
     padding: 0;
     text-align: left;
     color: var(--white);
@@ -29,3 +31,34 @@
 .index-hero-carousel .carousel-caption h6.deadline {
     margin-bottom: .6rem;
 }
+.index-hero-carousel .button-group {
+    margin-top: 2.4rem;
+}
+.index-hero-carousel .button-group .box-btn:not(.fill) {
+    border: 0;
+    color: var(--white);
+}
+.index-hero-carousel .button-group .box-btn:not(.fill):hover {
+    background-color: transparent;
+}
+
+/* ===== qualifications ===== */
+.qualifications .section-head-group .section-title { 
+    max-width: 58.3rem;
+    width: 100%;
+}
+.qualifications .section-head-group .text {
+    max-width: 62rem;
+    width: 100%;
+}
+
+/* ===== courses ===== */
+.courses .section-head-group .section-title { 
+    max-width: 60.2rem;
+    width: 100%;
+}
+.courses .section-head-group .text {
+    max-width: 62rem;
+    width: 100%;
+}
+/* =====  ===== */

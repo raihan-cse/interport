@@ -1,0 +1,111 @@
+.testmonialCard {
+    border          : 1px solid var(--gray);
+    border-radius   : 1rem;
+    padding         : 5rem 4rem;
+    max-width       : 45.3rem;
+    margin          : auto;
+}
+.quoteIcon {
+    width        : 4rem !important;
+    height       : 4rem;
+    display      : inline-block !important;
+    margin-bottom: 2.1rem;
+}
+.testmonialCard .text {
+    color         : var(--dark-gray);
+    padding-bottom: 6rem;
+}
+.testmonialUser {
+    display    : flex;
+    align-items: center;
+    border-top: 1px solid var(--gray);
+    padding-top: 4rem;
+}
+.testmonialUser img {
+    height       : 6rem;
+    width        : 6rem;
+    border-radius: 50%;
+}
+.testmonialUser h5 {
+    font-weight   : bold;
+    font-size     : 2rem;
+    line-height   : 2.4rem;
+    color         : var(--black);
+    letter-spacing: -0.01em;
+    padding-left  : 1.2rem;
+    margin-bottom : .4rem;
+}
+.testmonialUser h6 {
+    font-weight : normal;
+    font-size   : 1.8rem;
+    line-height : 2.2rem;
+    color       : var(--dark-gray);
+    padding-left: 1.2rem;
+}
+
+
+
+.carousel .owl-nav button.owl-next, .carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    transform        : translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 5.8rem;
+    height: 5.8rem;
+    line-height: 0.8;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid var(--gray);
+}
+.carousel .owl-nav button.owl-next img, .carousel .owl-nav button.owl-prev img {
+    width: 10px;
+}
+.carousel .owl-nav button.owl-next {
+    right: -9rem;
+}
+.carousel .owl-nav button.owl-prev {
+    left: -9rem;
+}
+/* .owl-nav .owl-next,
+.owl-nav .owl-prev {
+    position         : absolute;
+    top              : 50%;
+    transform        : translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.owl-nav .owl-next {
+    right       : -9rem;
+    display     : flex;
+    margin-right: 2%;
+    font-size   : 2.9rem !important;
+
+}
+
+.owl-nav .owl-prev {
+    left       : -9rem;
+    display    : flex;
+    margin-left: 2%;
+    font-size  : 2.9rem !important;
+}
+
+
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    border          : 2px solid var(--gray);
+    background-color: var(--sectionBg);
+    border-radius   : 50%;
+    display         : inline-block;
+    height          : 5rem;
+    width           : 5rem;
+    line-height: 5rem;
+    color           : #636363;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: var(--sectionBg);
+    border-color    : #D5D5D5;
+    color           : #636363;
+
+} */

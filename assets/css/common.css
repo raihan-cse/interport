@@ -8,6 +8,12 @@
 @import "normalize.css";
 
 /* common styles */
+.section-padding, .section-padding-top {
+    padding-top: 18rem;
+}
+.section-padding, .section-padding-bottom {
+    padding-bottom: 18rem;
+}
 .section-title, title, .form-control {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -20,20 +26,12 @@
     font-size: 5.6rem;
     line-height: 6rem;
 }
-.count-number {
-    font-size: 64px;
-    line-height: 60px;
-    letter-spacing: -0.05em;
-    color: var(--blue);
-}
+
 .title {
     font-size: 36px;
     line-height: 44px;
 }
-.text {
-    font-size: 18px;
-    line-height: 32px;
-}
+
 .section-title-wrapper {
     padding-bottom: 4.8rem;
 }
@@ -48,14 +46,52 @@
 }
 .section-head-group .title-box {
     flex: 0 0 70%;
-    max-width: 30%;
+    max-width: 70%;
 }
 .section-head-group.description {
     align-items: flex-end;
 }
-.section-head-group.description .title-box {
+/* .section-head-group.description .title-box {
     flex: 0 0 50%;
     max-width: 50%;
+} */
+.section-head-group.description .section-title {
+    margin-bottom: 2.4rem;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 32px;
+}
+.box-btn {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.2rem 2rem;  
+    border-radius: .5rem;
+    border: 2px solid var(--blue);
+    display: inline-block;
+}
+.box-btn.fill {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.box-btn:not(.fill) {
+    color: var(--blue);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.box-btn:not(.fill):hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.count-number {
+    font-size: 64px;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    color: var(--blue);
 }
 
 
