@@ -2,7 +2,7 @@
     --white: #ffffff;
     --black: #151515;
     --red: #ED1C24;
-    --blue: #fff;
+    --blue: #224497;
     --gray: #e3e3e3;
     --dark-gray: #333333;
     --light-gray: #ECECEC;
@@ -33,6 +33,7 @@ body {
 ul {
     list-style: none;
     margin-bottom: 0;
+    padding-left: 0;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin: 0;
