@@ -8,15 +8,15 @@
 @import "normalize.css";
 
 /* common styles */
+.section-title, title, .form-control, .count-number {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
 .section-padding, .section-padding-top {
     padding-top: 18rem;
 }
 .section-padding, .section-padding-bottom {
     padding-bottom: 18rem;
-}
-.section-title, title, .form-control {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
 }
 .section-title, .title {
     letter-spacing: -0.03em;
@@ -53,7 +53,7 @@
 }
 /* .section-head-group.description .title-box {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 50%; 
 } */
 .section-head-group.description .section-title {
     margin-bottom: 2.4rem;
@@ -91,7 +91,6 @@
     font-size: 64px;
     line-height: 60px;
     letter-spacing: -0.05em;
-    color: var(--blue);
 }
 
 

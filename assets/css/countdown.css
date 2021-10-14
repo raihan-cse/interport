@@ -1,0 +1,18 @@
+.countdowns {
+    background-image: url(../images/global/count-down-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    padding: 10rem 0;
+}
+.countdown-wrapper {
+    color: var(--white);
+    display: inline-block;
+    text-align: left;
+
+}
+.countdown-wrapper p {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-top: 4px;
+}
