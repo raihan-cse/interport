@@ -1,22 +1,22 @@
-.trainers .card {
+.trainers-card-wrapper .card {
     border-radius: 1rem;
     overflow: hidden;
     border: 1px solid var(--gray);
 }
-.trainers .card-body {
+.trainers-card-wrapper .card-body {
     padding: 2.4rem;
     color: var(--black);
     min-height: 15.8rem;
 }
-.trainers .card-body h5 {
+.trainers-card-wrapper .card-body h5 {
     font-size: 1.8rem;
     line-height: 2.4rem;
     font-weight: 600;
 }
-.trainers .card-body p {
+.trainers-card-wrapper .card-body p {
     font-size: 1.6rem;
     line-height: 2.2rem;
 }
-.trainers .card-body p.designation {
+.trainers-card-wrapper .card-body p.designation {
     margin: 1.2rem 0 0.6rem;
 }
