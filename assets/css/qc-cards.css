@@ -1,0 +1,87 @@
+.qc-card-wrapper .card {
+    border-radius: 1rem;
+    border: 1px solid var(--gray);
+    overflow: hidden;
+}
+.qc-card-wrapper .do-status-box {
+    position: absolute;
+    left: 2.4rem;
+    top: 2.4rem;
+    right: 2.4rem;
+}
+.qc-card-wrapper .do-status-inner, .qc-card-wrapper .meta-tag-inner, .qc-card-wrapper .cfen-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qc-card-wrapper .do-status-inner p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: var(--white);
+    font-weight: 700;
+}
+.qc-card-wrapper .do-status-inner p span {
+    display: block;
+    font-weight: 400;
+}
+.qc-card-wrapper .do-status-inner a {
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 1rem 1.6rem;
+    border-radius: .5rem;
+    border: 1px solid #27AE60;
+    background: rgba(39, 174, 96, 0.2);
+}
+.qc-card-wrapper .card-body {
+    padding: 2.4rem;
+}
+.qc-card-wrapper .card-body .sub-title {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: .6rem;
+}
+.qc-card-wrapper .card-body .main-title {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+}
+.qc-card-wrapper .meta-tag-box {
+    padding: 3.2rem 0;
+}
+/* .qc-card-wrapper .meta-tag-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.qc-card-wrapper .meta-tag-inner .icon {
+    width: 2rem;
+}
+.qc-card-wrapper .meta-tag-inner p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    color: var(--dark-gray);
+    margin-top: 4px;
+}
+.qc-card-wrapper .cfen-wrapper {
+    padding: 2.4rem;
+    border-top: 1px solid var(--gray);
+}
+/* .qc-card-wrapper .cfen-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.qc-card-wrapper .cfen-inner h6 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 700;
+}
+.qc-card-wrapper .cfen-inner p {
+    font-size: 18px;
+    line-height: 22px;
+}

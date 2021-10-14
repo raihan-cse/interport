@@ -4,7 +4,7 @@
     border: 1px solid var(--gray);
 }
 .trainers .card-body {
-    padding: 2.4rem 2rem;
+    padding: 2.4rem;
     color: var(--black);
     min-height: 15.8rem;
 }

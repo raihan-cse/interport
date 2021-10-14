@@ -93,6 +93,32 @@
     letter-spacing: -0.05em;
 }
 
+.carousel .owl-nav button.owl-next, .carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    transform        : translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 5.8rem;
+    height: 5.8rem;
+    line-height: 0.8;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid var(--gray);
+    transition: border 0.3s ease-in-out;
+}
+.carousel .owl-nav button.owl-next:hover, .carousel .owl-nav button.owl-prev:hover {
+    border: 2px solid var(--blue);
+}
+.carousel .owl-nav button.owl-next img, .carousel .owl-nav button.owl-prev img {
+    width: 10px;
+}
+.carousel .owl-nav button.owl-next {
+    right: -9rem;
+}
+.carousel .owl-nav button.owl-prev {
+    left: -9rem;
+}
+
 
 
 @media (min-width: 1920px) {

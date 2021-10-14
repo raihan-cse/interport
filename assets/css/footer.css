@@ -13,6 +13,10 @@
     max-width: 33.6rem;
     width: 100%;
 }
+.footer-info-box p {
+    max-width: 57.5rem;
+    width: 100%;
+}
 
 .footer-title h5 {
     font-size: 2.4rem;

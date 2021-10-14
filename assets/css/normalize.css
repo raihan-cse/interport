@@ -29,6 +29,7 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
+    color: var(--black);
 }
 ul {
     list-style: none;
