@@ -85,3 +85,14 @@
     font-size: 18px;
     line-height: 22px;
 }
+
+
+/* ===== cards row system ===== */
+.courses-qualification-content .row {
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+.courses-qualification-content .qc-card-wrapper  {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

@@ -25,11 +25,11 @@
     width: 100%;
 }
 
-.trainers-section .row, .courses-qualification-content .row {
+.trainers-section .row {
     margin-top: -2rem;
     margin-bottom: -2rem;
 }
-.trainers-section .trainers-card-wrapper, .courses-qualification-content .qc-card-wrapper  {
+.trainers-section .trainers-card-wrapper {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }

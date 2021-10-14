@@ -16,3 +16,30 @@
     line-height: 3.2rem;
     margin-top: 4px;
 }
+
+
+/* ===== box countdonw ===== */
+.my-courses {
+    padding-bottom: 5.8rem;
+    border-bottom: 1px solid var(--gray);
+}
+.countdown-box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.countdown-box-wrapper .countdown-box-inner {
+    width: 14rem;
+    border-radius: .5rem;
+    border: 1px solid var(--gray);
+    padding: 2.2rem 3.2rem;
+    text-align: center;
+}
+.countdown-box-wrapper .count-number {
+    color: var(--blue);
+    margin-bottom: 4px;
+}
+.countdown-box-wrapper p {
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
