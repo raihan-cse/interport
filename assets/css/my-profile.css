@@ -1,0 +1,56 @@
+.my-profile .my-profile-box {
+    max-width: 45rem;
+    width: 100%;
+}
+.my-profile .profile-wapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.my-profile .profile-pic {
+    margin-right: 4rem;
+}
+.my-profile .profile-pic img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+}
+.my-profile .profile-wapper .edit-profile-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+}
+.my-profile .profile-content ul li:not(:last-child) {
+    margin-bottom: 4.8rem;
+}
+.my-profile .profile-content span {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 4x;
+    display: block;
+}
+.my-profile .profile-content p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+@media (max-width: 767.98px) {
+    .my-profile .profile-pic img {
+        width: 120px;
+        height: 120px;
+    }
+    .my-profile .profile-content ul li:not(:last-child) {
+        margin-bottom: 32px;
+    }
+    .my-profile .profile-content span {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 4px;
+    }
+    .my-profile .profile-content p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
