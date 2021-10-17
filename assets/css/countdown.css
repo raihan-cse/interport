@@ -28,11 +28,15 @@
     justify-content: space-between;
     align-items: center;
 }
+.countdown-box-wrapper button {
+    border: 0;
+    background-color: transparent;
+}
 .countdown-box-wrapper .countdown-box-inner {
     width: 14rem;
     border-radius: .5rem;
     border: 1px solid var(--gray);
-    padding: 2.2rem 3.2rem;
+    padding: 2.2rem 2rem;
     text-align: center;
 }
 .countdown-box-wrapper .count-number {
