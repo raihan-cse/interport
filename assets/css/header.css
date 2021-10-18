@@ -1,0 +1,151 @@
+.nav-large-device {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+    padding: 1.8rem 4rem;
+}
+@media (max-width: 991.98px) {
+    .nav-large-device {
+        display: none;
+    }
+}
+.nav-large-device .nav-items-wrapper .item {
+    display: inline-block;
+}
+.nav-large-device .nav-items-wrapper .link {
+    display: block;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    padding: 1.2rem 4.2rem;
+    color: var(--black);
+}
+.dropdown-toggle::before {
+    display: inline-block;
+    content: "";
+    background-image: url(../images/global/user-icon.png);
+    background-size: 4.8rem 4.8rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+.dropdown-toggle::after {
+    background-image: url(../images/icon-svg/chaveron-down.svg);
+    background-size: 14px 8px;
+    width: 14px;
+    height: 8px;
+    border: 0;
+    margin-left: 1rem;
+    vertical-align: 0.155em;
+}
+.nav-large-device .dropdown a.dropdown-toggle {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    font-weight: 700;
+    color: var(--blue);
+    text-align: center;
+    text-transform: uppercase;
+}
+.nav-large-device .dropdown-menu {
+    padding: 1.4rem 0;
+    background: var(--white);
+    border: 1px solid var(--light-gray);
+    min-width: 14rem;
+}
+.nav-large-device .dropdown-item {
+    padding: .6rem 2rem;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    color: var(--black);
+    text-align: right;
+    text-transform: capitalize;
+}
+.nav-large-device .dropdown-item.active, .nav-large-device .dropdown-item:active, .nav-large-device .dropdown-item:focus, .nav-large-device .dropdown-item:hover {
+    background-color: transparent;
+}
+
+
+/* ===== small device navbar start ===== */
+.nav-small-device .header-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3.2rem;
+    background: var(--white);
+    border-bottom: 1px solid var(--light-gray);
+}
+@media (min-width: 992px) {
+    .nav-small-device {
+        display: none;
+    }
+}
+.nav-small-device .bar-wrapper .line {
+    width: 24px;
+    height: 2px;
+    background: var(--black);
+}
+.nav-small-device .bar-wrapper .line.line-two {
+    margin: 6px 0;
+}
+
+.nav-small-device .header-bottom {
+    padding: 0 3.2rem;
+    background: var(--white);
+}
+.nav-small-device .header-bottom-inner {
+    padding-bottom: 3.2rem;
+}
+.nav-small-device .small-nav-items, .nav-small-device .user-items-inner  {
+    padding: 2.2rem 0;
+}
+.nav-small-device .small-nav-items .link {
+    display: block;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    padding: 1.2rem 0;
+    color: var(--black);
+}
+.nav-small-device .small-user-wrapper {
+    border-top: 1px solid var(--light-gray);
+    padding-top: 2.2rem;
+}
+.nav-small-device .small-user-wrapper img {
+    width: 4.8rem;
+}
+.nav-small-device .user-item-toggle {
+    position: relative;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    font-weight: 700;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.nav-small-device .user-item-toggle::after {
+    display: inline-block;
+    content: "";
+    background-image: url(../images/icon-svg/chaveron-down.svg);
+    background-size: 14px 8px;
+    width: 14px;
+    height: 8px;
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.nav-small-device .user-items-inner a {
+    display: block;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    color: var(--black);
+    padding: 1.2rem 0;
+}
