@@ -1,5 +1,14 @@
-.left-control-box .left-top {
-    padding: 3.2rem 0;
+.left-control-box .left-top, .csd-box, .trainers-box, .enroll-deadline-box {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.left-control-box .left-top, .trainers-box {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+.csd-box, .enroll-deadline-box {
+    padding-top: 2.4rem;
+    padding-bottom: 3.2rem;
 }
 .course-sub-group-box {
     display: flex;
@@ -47,20 +56,19 @@
     background: rgba(33, 150, 83, 0.07);
 }
 
-.csd-box {
-    padding: 2.4rem 0;
+.csd-box, .trainers-box {
     border-top: 1px solid var(--light-gray);
     border-bottom: 1px solid var(--light-gray);
 }
-.csd-box li:not(:last-child) {
+.csd-box li:not(:last-child), .trainers-box li:not(:last-child) {
     margin-bottom: 2.4rem;
 }
-.csd-box h6, .enroll-deadline-box > div h6 {
+.csd-box h6, .enroll-deadline-box > div h6, .trainers-box h6 {
     font-size: 1.6rem;
     line-height: 2.4rem;
     font-weight: 700;
 }
-.csd-box p, .enroll-deadline-box > div p {
+.csd-box p, .enroll-deadline-box > div p, .trainers-box p {
     font-size: 1.6rem;
     line-height: 2.2rem;
 }
@@ -68,11 +76,37 @@
 .enroll-deadline-box {
     width: 100%;
     text-align: center;
-    padding: 2.4rem 0;
 }
 .enroll-deadline-box > div {
     margin-bottom: 2rem;
 }
 .enroll-deadline-box .box-btn.fill {
     width: 100%;
+}
+
+.trainers-box h5 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+}
+.trainers-box li {
+    display: flex;
+    align-items: center;
+}
+.trainers-box li .trainer-thumb {
+    flex: 0 0 6rem;
+    max-width: 6rem;
+    margin-right: 1.6rem;
+}
+.trainers-box li .trainer-thumb img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* right content box start */
+.right-content-box {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-left: 1px solid var(--light-gray);
 }
