@@ -165,7 +165,7 @@ body.active .nav-overlay {
 }
 .custom-checkbox-wrapper .form-check input[type="checkbox"] + label::before {
     content: "";
-    margin-top: 5px;
+    margin-top: .6rem;
     display: inline-block;
     vertical-align: text-top;
     width: 1.8rem;
@@ -184,7 +184,7 @@ body.active .nav-overlay {
     content: "";
     position: absolute;
     left: .4rem;
-    top: 1.3rem;
+    top: 1.4rem;
     background: var(--white);
     width: .2rem;
     height: .2rem;
