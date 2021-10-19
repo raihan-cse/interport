@@ -110,3 +110,44 @@
     padding-right: 4rem;
     border-left: 1px solid var(--light-gray);
 }
+.right-content-box .inner-content {
+    padding-top: 6.4rem;
+    padding-bottom: 12.8rem;
+}
+.right-content-box .section-title {
+    max-width: 798px;
+    width: 100%;
+    margin-top: .8rem;
+}
+.right-content-box .group-btn-box {
+    display: flex;
+    align-items: center;
+}
+.right-content-box .group-btn-box {
+    margin: 3.2rem 0 4rem;
+}
+.right-content-box .group-btn-box a {
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    color: var(--dark-gray);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 1.6rem;
+    background: rgba(56, 56, 56, 0.07);
+    border-radius: .5rem;
+    border: 1px solid var(--dark-gray);
+}
+.right-content-box .group-btn-box a:not(:last-child) {
+    margin-right: 1.2rem;
+}
+.course-description li:not(:last-child) {
+    margin-bottom: 3.2rem;
+}
+.course-description h6 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+
+}
