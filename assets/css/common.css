@@ -146,7 +146,7 @@ body.active .nav-overlay {
 .custom-checkbox-wrapper .form-check:not(:last-child) {
     margin-bottom: 1.2rem;
 }
-.custom-checkbox-wrapper .form-check input[type="checkbox"] {
+.custom-checkbox-wrapper .form-check input[type="checkbox"], .custom-checkbox-wrapper .form-check input[type="radio"] {
     position: absolute;
     opacity: 0;
     margin: 0;
@@ -159,11 +159,12 @@ body.active .nav-overlay {
     line-height: 3.2rem;
     padding-left: 3rem;
 }
-.custom-checkbox-wrapper .form-check input[type="checkbox"] + label {
+.custom-checkbox-wrapper .form-check input[type="checkbox"] + label, .custom-checkbox-wrapper .form-check input[type="radio"] + label {
     position: relative;
     cursor: pointer;
 }
-.custom-checkbox-wrapper .form-check input[type="checkbox"] + label::before {
+.custom-checkbox-wrapper .form-check input[type="checkbox"] + label::before,
+.custom-checkbox-wrapper .form-check input[type="radio"] + label::before {
     content: "";
     margin-top: .6rem;
     display: inline-block;
@@ -176,11 +177,11 @@ body.active .nav-overlay {
     position: absolute;
     left: 0;
 }
-.custom-checkbox-wrapper .form-check input[type="checkbox"]:checked + label::before {
+.custom-checkbox-wrapper .form-check input[type="checkbox"]:checked + label::before, .custom-checkbox-wrapper .form-check input[type="radio"]:checked + label::before {
     background: var(--blue);
     border: 2px solid var(--blue);
 }
-.custom-checkbox-wrapper .form-check input[type="checkbox"]:checked + label::after {
+.custom-checkbox-wrapper .form-check input[type="checkbox"]:checked + label::after, .custom-checkbox-wrapper .form-check input[type="radio"]:checked + label::after {
     content: "";
     position: absolute;
     left: .4rem;
