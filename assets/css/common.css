@@ -195,9 +195,15 @@ body.active .nav-overlay {
 }
 
 
-
 @media (min-width: 1920px) {
     .container {
         max-width: 1415px;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .container, .container-fluid {
+        padding-left: 32px;
+        padding-right: 32px;
     }
 }

@@ -1,22 +1,17 @@
-const myCarousel = document.querySelector('#indexHeroCarousel')
-const carousel = new bootstrap.Carousel(myCarousel, {
-  interval: false,
-  // wrap: false,
-  autoplay: false
-})
-
-// small navbar activation
-$('.icon-wrapper').on('click', function() {
-  $('.header-bottom').collapse('toggle');
-  $('body').toggleClass('active');
-}); 
-
-// user collapse
-$('.user-item-toggle').on('click', function() {
-  $('.user-items').collapse('toggle');
-}); 
-
 $(document).ready(function () {
+  // small navbar activation
+  $('.icon-wrapper').on('click', function () {
+    $('.header-bottom').collapse('toggle');
+    $('body').toggleClass('active');
+  });
+
+  // user collapse
+  $('.user-item-toggle').on('click', function () {
+    $('.user-items').collapse('toggle');
+  });
+
+
+  // program details page large device
   $('.start-step-btn').on('click', function (e) {
     e.preventDefault();
     $('.main-content-box, .start-step-btn').addClass('deactive');
@@ -43,4 +38,16 @@ $(document).ready(function () {
     $('.multiple-steps.step-one, .form-step-two').removeClass('active');
     $('.multiple-steps.step-two').addClass('active');
   })
+
+  // program details page small device
+  $('.btn-course-details').on('click', function () {
+    $(this).toggleClass('active');
+    $('.course-description').collapse('toggle');
+  })
+
+  $('.btn-trainers-card').on('click', function () {
+    $(this).toggleClass('active');
+    $('.trainers-box').collapse('toggle');
+  })
+
 })

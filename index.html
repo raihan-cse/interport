@@ -31,7 +31,8 @@
     <div class="header-left-box">
       <div class="header-left-inner">
         <div class="logo-wrapper">
-          <img src="assets/images/logo/header-logo.svg" alt="logo">
+          <a href="/" class="d-block text-reset">
+            <img src="assets/images/logo/header-logo.svg" alt="logo"></a>
         </div>
       </div>
     </div>
@@ -71,7 +72,8 @@
   <header class="nav-small-device sticky-top">
     <div class="header-top">
       <div class="logo-wrapper">
-        <img src="assets/images/logo/small-logo.svg" alt="logo">
+        <a href="/" class="d-block text-reset">
+          <img src="assets/images/logo/small-logo.svg" alt="logo"></a>
       </div>
       <div class="icon-wrapper">
         <div class="bar-wrapper">
@@ -891,6 +893,15 @@
   <!--custom js-->
   <script src="assets/js/custom.js"></script>
   <script src="assets/js/carousel-activation.js"></script>
+
+  <script>
+    const myCarousel = document.querySelector('#indexHeroCarousel')
+    const carousel = new bootstrap.Carousel(myCarousel, {
+      interval: false,
+      // wrap: false,
+      autoplay: false
+    })
+  </script>
 </body>
 
 </html>
