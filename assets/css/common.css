@@ -76,8 +76,8 @@ body.active .nav-overlay {
 }
 
 .text {
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
 }
 .box-btn {
     font-size: 16px;
@@ -104,8 +104,8 @@ body.active .nav-overlay {
 }
 
 .count-number {
-    font-size: 64px;
-    line-height: 60px;
+    font-size: 6.4rem;
+    line-height: 6rem;
     letter-spacing: -0.05em;
 }
 
@@ -201,9 +201,47 @@ body.active .nav-overlay {
     }
 }
 
+
+@media (max-width: 1399.98px) {}
+@media (max-width: 1199.98px) {}
+@media (max-width: 991.98px) {}
+@media (max-width: 767.98px) {}
 @media(max-width: 575.98px) {
+    /* html {
+        font-size: 30%;
+    } */
     .container, .container-fluid {
         padding-left: 32px;
         padding-right: 32px;
+    }
+    .section-title {
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+    .title {}
+    .text {
+        font-size: 1.5rem;
+        line-height: 2.8rem;
+    }
+    .box-btn {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        padding: 1.2rem 1.8rem;
+    }
+    .count-number {
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+    .section-padding, .section-padding-bottom {
+        padding-bottom: 12rem;
+    }
+    .section-padding, .section-padding-top {
+        padding-top: 12rem;
+    }
+
+    .section-head-group .title-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 2.4rem;
     }
 }

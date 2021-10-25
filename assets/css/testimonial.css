@@ -45,5 +45,22 @@
 
 
 
+/* ===== responsive start ===== */
+@media (max-width: 575.98px) {
+    .testmonialCard {
+        padding: 2.4rem 2rem;
+    }
+    .quoteIcon {
+        width: 2.4rem !important;
+        height: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+    .testmonialCard .text {
+        padding-bottom: 3.5rem;
+    }
+}
+
+
+
 
 

@@ -10,7 +10,7 @@ $(document).ready(function () {
         0: {
           items: 1,
           nav: false,
-          // stagePadding: 50,
+          stagePadding: 42,
         },
         800: {
           items: 3,
@@ -30,6 +30,7 @@ $(document).ready(function () {
         0: {
           items: 1,
           nav: false,
+          stagePadding: 42,
         },
         800: {
           items: 4,
@@ -50,6 +51,7 @@ $(document).ready(function () {
         0: {
           items: 1,
           nav: false,
+          stagePadding: 42,
         },
         800: {
           items: 3,

@@ -82,8 +82,8 @@
     font-weight: 700;
 }
 .qc-card-wrapper .cfen-inner p {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
 }
 
 
@@ -95,4 +95,36 @@
 .courses-qualification-content .qc-card-wrapper  {
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+
+
+/* ===== responsive start ===== */
+@media (max-width: 575.98px) {
+    .qc-card-wrapper .do-status-box {
+        left: 1.6rem;
+        top: 1.6rem;
+        right: 1.6rem;
+    }
+    .qc-card-wrapper .do-status-inner p, .qc-card-wrapper .meta-tag-inner p {
+        font-size: 1.3rem;
+    }
+    .qc-card-wrapper .do-status-inner a {
+        display: inline-block;
+        font-size: 1.2rem;
+        padding: 1rem .8rem;
+    }
+    .qc-card-wrapper .card-body {
+        padding: 1.8rem;
+    }
+    .qc-card-wrapper .card-body .main-title {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .qc-card-wrapper .meta-tag-box {
+        padding: 2.8rem 0 1.2rem;
+    }
+    .qc-card-wrapper .cfen-inner h6, .qc-card-wrapper .cfen-inner p, .qc-card-wrapper .card-body .sub-title {
+        font-size: 1.5rem;
+    }
 }

@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // small navbar activation
-  $('.icon-wrapper').on('click', function () {
+  $('.icon-wrapper, .nav-overlay').on('click', function () {
     $('.header-bottom').collapse('toggle');
     $('body').toggleClass('active');
   });

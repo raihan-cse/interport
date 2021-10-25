@@ -20,3 +20,18 @@
 .trainers-card-wrapper .card-body p.designation {
     margin: 1.2rem 0 0.6rem;
 }
+
+
+/* ===== responsive start ===== */
+@media (max-width: 575.98px) {
+    .trainers-card-wrapper .card-body {
+        padding: 1.8rem;
+    }
+    .trainers-card-wrapper .card-body h5 {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .trainers-card-wrapper .card-body p {
+        font-size: 1.5rem;
+    }
+}
