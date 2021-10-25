@@ -469,9 +469,10 @@
         <div class="pd-title-box">
           <h1 class="title">CILT International Certificate in Logistics and Transport</h1>
         </div>
-        <div class="course-sub-group-box">
-          <a href="#" class="box-btn fill">Enroll for tk. 20,000</a>
-          <div class="btn-group-box">
+        <div class="course-sub-group-box" role="presentation">
+          <a href="#" id="op3-tab" class="box-btn fill small-device-start-step-btn">Enroll for tk. 20,000</a>
+          <a href="#" class="box-btn small-device-conditional-btn">applying</a>
+          <div class="btn-group-box ms-3">
             <a href="#" class="btn-download">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path
@@ -583,7 +584,127 @@
           </div>
           <div class="tab-pane fade" id="op2" role="tabpanel" aria-labelledby="op2-tab">
             <div class="small-device-steper-wrapper">
-              
+              <div class="header-step header-step-one is-active">
+                <div class="icon"></div>
+                <div class="content">
+                  <span>Step 1</span>
+                  <h6>Application Form</h6>
+                </div>
+              </div>
+              <div class="form-wrapper">
+                <form action="#">
+                  <div class="small-device-form-step small-device-form-step-one">
+                    <div class="enroll-btn-wrapper">
+                      <a href="#" class="box-btn small-device-enroll-start-btn">enroll now</a>
+                    </div>
+                    <div class="input-field-wrapper sd-form-one collapse">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="nameInput" placeholder="Your Full Name">
+                        <label for="nameInput">Your Full Name</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="emailInput" placeholder="Your Email">
+                        <label for="emailInput">Your Email</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="pnInput" placeholder="Your Phone Number">
+                        <label for="pnInput">Your Phone Number</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="onInput" placeholder="Your Organization Name">
+                        <label for="onInput">Your Organization Name</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="eqInput"
+                          placeholder="Your Educational Qualification">
+                        <label for="eqInput">Your Educational Qualification</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="saInput" placeholder="Your Street Address">
+                        <label for="saInput">Your Street Address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="pcInput" placeholder="Your Post Code">
+                        <label for="pcInput">Your Post Code</label>
+                      </div>
+                      <div class="row agree-or-not">
+                        <div class="col-12 col-md-6">
+                          <p>Are you a CILT Member?</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <div class="custom-checkbox-wrapper">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" id="ctCheckbox1" value="option1" name="hello"
+                                checked>
+                              <label class="form-check-label" for="ctCheckbox1">Yes, I am a CILT Member</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" id="ctCheckbox2" value="option2" name="hello">
+                              <label class="form-check-label" for="ctCheckbox2">No, I’m not</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box-btn-wrapper text-end">
+                        <a type="button" class="box-btn fill small-device-submit-application-btn">Submit application</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="header-step header-step-two">
+                    <div class="icon"></div>
+                    <div class="content">
+                      <span>Step 2</span>
+                      <h6>Payment</h6>
+                    </div>
+                  </div>
+                  <div class="small-device-form-step small-device-form-step-two">
+                    <div class="input-field-wrapper sd-form-two collapse">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="paInput" placeholder="Enter Payment Amount">
+                        <label for="paInput">Enter Payment Amount</label>
+                      </div>
+                      <div class="form-floating">
+                        <select class="form-select" id="pmSelect" aria-label="Select Payment Method">
+                          <option selected disabled hidden></option>
+                          <option value="1">bank</option>
+                          <option value="2">bKash</option>
+                          <option value="3">Nagad</option>
+                        </select>
+                        <label for="pmSelect">Select Payment Method</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="bnInput" placeholder="Enter Bank Name">
+                        <label for="bnInput">Enter Bank Name</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="tiInput" placeholder="Enter Transaction ID">
+                        <label for="tiInput">Enter Transaction ID</label>
+                      </div>
+                      <div class="box-btn-wrapper group text-end">
+                        <a type="button" class="box-btn fill small-device-go-back-btn mb-4">go back</a>
+                        <!-- <button type="submit" class="box-btn fill small-device-confirm-payment-btn">confirm payment</button> -->
+                        <a type="button" class="box-btn fill small-device-confirm-payment-btn">confirm payment</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="header-step header-step-three">
+                <div class="icon"></div>
+                <div class="content">
+                  <span>Step 3</span>
+                  <h6>Course Completion</h6>
+                </div>
+              </div>
+              <div class="small-device-form-step small-device-form-step-three"></div>
+              <div class="header-step header-step-four">
+                <div class="icon"></div>
+                <div class="content">
+                  <span>Step 4</span>
+                  <h6>Certificate</h6>
+                  <a href="#" class="box-btn view-certificate-btn mt-3">view</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

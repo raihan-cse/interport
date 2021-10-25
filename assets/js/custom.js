@@ -39,7 +39,7 @@ $(document).ready(function () {
     $('.multiple-steps.step-two').addClass('active');
   })
 
-  // program details page small device
+  // program details page small device course and trainee
   $('.btn-course-details').on('click', function () {
     $(this).toggleClass('active');
     $('.course-description').collapse('toggle');
@@ -48,6 +48,41 @@ $(document).ready(function () {
   $('.btn-trainers-card').on('click', function () {
     $(this).toggleClass('active');
     $('.trainers-box').collapse('toggle');
+  })
+
+  // program details page small device form steper
+  $('#op3-tab').on('click', function(e){
+    e.preventDefault();
+    $('#op2-tab').trigger('click');
+  })
+
+  $('.small-device-enroll-start-btn').on('click', function(e) {
+    e.preventDefault();
+    $(this).addClass('deactive');
+    $('.input-field-wrapper.sd-form-one').collapse('toggle');
+    $('.small-device-conditional-btn').addClass('active');
+    $('.small-device-start-step-btn').addClass('deactive');
+  })
+
+  $('.small-device-submit-application-btn').on('click', function () {
+    $('.input-field-wrapper.sd-form-one, .input-field-wrapper.sd-form-two').collapse('toggle');
+    $('.small-device-conditional-btn').html('applied');
+    $('.header-step.header-step-one').addClass('is-completed');
+    $('.header-step.header-step-two').addClass('is-active');
+  });
+
+  $('.small-device-go-back-btn').on('click', function () {
+    $('.input-field-wrapper.sd-form-one, .input-field-wrapper.sd-form-two').collapse('toggle');
+    $('.small-device-conditional-btn').html('applying');
+    $('.header-step.header-step-one').removeClass('is-completed');
+    $('.header-step.header-step-two').removeClass('is-active');
+  })
+
+  $('.small-device-confirm-payment-btn').on('click', function () {
+    $('.input-field-wrapper.sd-form-two').collapse('toggle');
+    $('.small-device-conditional-btn').html('pending').addClass('status-pending');
+    $('.header-step.header-step-two').addClass('is-completed');
+    $('.header-step.header-step-three').removeClass('is-active');
   })
 
 })
