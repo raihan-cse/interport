@@ -1,3 +1,6 @@
+.trainers-hero {
+    margin-top: 1.6rem;
+}
 .trainers-hero-inner {
     position: relative;
     border-radius: 1.5rem;
@@ -101,16 +104,25 @@
 
 /* ===== responsive start ===== */
 @media (max-width: 575.98px) {
-    .testimonial .container:last-child, .trainers-hero .container {
+    .trainers-card-wrapper .card-body {
+        min-height: auto;
+    }
+    .trainers-hero .container {
+        padding-left:2.4rem;
+        padding-right:2.4rem;
+    }
+    .testimonial .container:last-child {
         padding-left: 0;
         padding-right: 0;
+    }
+    .trainers-hero {
+        margin-top: 2.4rem;
     }
     .trainers-hero-content {
         left: 3.2rem;
         right: 3.2rem;
     }
     .trainers-hero-inner {
-        border-radius: 0;
         min-height: 400px;
     }
     .trainers-hero-inner img {
@@ -131,10 +143,14 @@
         line-height: 2.4rem;
     }
     .trainers-details .content-wrapper .qualification-box {
-        max-width: 39.4rem;
-        width: 100%;
-        background: rgba(34, 68, 151, 0.05);
-        border-radius: 1rem;
         padding: 2.4rem;
+    }
+    .trainers-details .description p, .trainers-details .specialist p, .trainers-details .specialist h6 {
+        font-size: 1.5rem;
+        line-height: 2.8rem;
+    }
+    .trainers-details .content-wrapper .qualification-box .qtitle-box h5, .trainers-details .content-wrapper .qualification-box p {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
     }
 }
