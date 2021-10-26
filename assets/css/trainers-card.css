@@ -28,10 +28,15 @@
         padding: 1.8rem;
     }
     .trainers-card-wrapper .card-body h5 {
-        font-size: 1.6rem;
-        line-height: 2.2rem;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
     }
     .trainers-card-wrapper .card-body p {
         font-size: 1.5rem;
+    }
+}
+@media (max-width: 375px) {
+    .trainers-card-wrapper .card-body {
+        min-height: 16.8rem;
     }
 }

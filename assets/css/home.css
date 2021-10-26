@@ -70,27 +70,21 @@
         max-width: 28rem;
         width: 100%;
     }
+    .index-hero {
+        margin-top: 2.4rem;
+    }
     .index-hero .container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
     }
-    .index-hero-carousel {
-        height: calc(100vh - 28rem);
-    }
-    .index-hero-carousel .carousel-item img {
-        height: calc(100vh - 28rem);
-        object-fit: cover;
-        object-position: bottom right;
+    .index-hero-carousel .carousel-caption .section-title {
+        max-width: 28rem;
     }
     .index-hero-carousel .carousel-caption {
-        top: 30%;
-        transform: translateY(-30%);
-        left: 3.2rem;
-        right: 3.2rem;
-        bottom: auto;
-        padding: 0;
-        text-align: left;
-        color: var(--white);
+        top: 15%;
+        transform: translateY(-15%);
+        left: 2.4rem;
+        right: 2.4rem;
     }
     .index-hero-carousel .carousel-caption h6 {
         font-size: 1.5rem;

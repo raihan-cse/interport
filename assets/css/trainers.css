@@ -97,3 +97,44 @@
 .trainers-details .specialist h6 {
     font-weight: 700;
 }
+
+
+/* ===== responsive start ===== */
+@media (max-width: 575.98px) {
+    .testimonial .container:last-child, .trainers-hero .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .trainers-hero-content {
+        left: 3.2rem;
+        right: 3.2rem;
+    }
+    .trainers-hero-inner {
+        border-radius: 0;
+        min-height: 400px;
+    }
+    .trainers-hero-inner img {
+        min-height: 400px;
+        object-fit: cover;
+        object-position: bottom right;
+    }
+
+    /* trainers details */
+    .trainers-details .image-wrapper {
+        margin-top: 4.2rem;
+    }
+    .trainers-details .content-wrapper {
+        padding-top: 2.4rem;
+    }
+    .trainers-details .content-wrapper .relation, .trainers-details .content-wrapper .organization {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    .trainers-details .content-wrapper .qualification-box {
+        max-width: 39.4rem;
+        width: 100%;
+        background: rgba(34, 68, 151, 0.05);
+        border-radius: 1rem;
+        padding: 2.4rem;
+    }
+}

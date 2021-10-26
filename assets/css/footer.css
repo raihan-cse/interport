@@ -83,7 +83,7 @@
         padding-top: 4.8rem;
     }
     .footer-logo-wrapper img {
-        max-width: 18rem;
+        max-width: 20.8rem;
         width: 100%;
     }
     .footer-title h5 {
@@ -101,7 +101,7 @@
         margin: 0 .8rem;
     }
     .footer .row:not(:first-of-type):not(:last-of-type) {
-        padding: 3.8rem 0 4.2rem;
+        padding: 4.2rem 0 4.2rem;
     }
     .copyright {
         padding: 2.4rem 0 2.4rem;
@@ -111,6 +111,9 @@
         align-items: center;
     }
 
+    .social-wrapper {
+        padding: 4.2rem 0 3.2rem;
+    }
     .social-wrapper ul li a {
         max-width: 20px;
     }

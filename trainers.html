@@ -17,6 +17,7 @@
 
     <!--custom css-->
     <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/trainers.css">
     <link rel="stylesheet" href="assets/css/trainers-card.css">
     <link rel="stylesheet" href="assets/css/countdown.css">
@@ -25,10 +26,72 @@
 </head>
 
 <body>
+    <header class="nav-large-device sticky-top">
+        <div class="header-left-box">
+            <div class="header-left-inner">
+                <div class="logo-wrapper">
+                    <a href="/" class="d-block text-reset">
+                        <img src="assets/images/logo/header-logo.svg" alt="logo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="header-mid-box">
+            <div class="header-mid-inner">
+                <div class="nav-items-wrapper">
+                    <ul>
+                        <li class="item">
+                            <a href="" class="link">Enroll For Course</a>
+                        </li>
+                        <li class="item">
+                            <a href="" class="link">Meet Your Trainers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-right-box">
+            <div class="header-right-inner">
+                <div class="user-wrapper">
+                    <a href="#" class="box-btn">log in</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <header class="nav-small-device sticky-top">
+        <div class="header-top">
+            <div class="logo-wrapper">
+                <a href="/" class="d-block text-reset">
+                    <img src="assets/images/logo/small-logo.svg" alt="logo"></a>
+            </div>
+            <div class="icon-wrapper">
+                <div class="bar-wrapper">
+                    <div class="line line-one"></div>
+                    <div class="line line-two"></div>
+                    <div class="line line-three"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom collapse">
+            <div class="header-bottom-inner">
+                <div class="small-nav-items">
+                    <a href="#" class="link">Enroll For Course</a>
+                    <a href="#" class="link">Meet Your Trainers</a>
+                </div>
+                <div class="small-nav-users">
+                    <a href="login.html" class="box-btn">log in</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="nav-overlay"></div>
+    <!-- header / navbar end -->
+
+
     <section class="trainers-hero">
         <div class="container">
             <div class="trainers-hero-inner">
-                <img src="assets/images/trainers/trainers-hero-bg.png" alt="bg-image">
+                <img class="img-fluid" src="assets/images/trainers/trainers-hero-bg.png" alt="bg-image">
                 <div class="trainers-hero-content">
                     <h1 class="section-title">We have assembled the best in the industry to train you</h1>
                     <p class="text">Interport Corporate Academy is also accredited by the Chartered Institute of
@@ -149,201 +212,200 @@
     <!-- countdown -->
     <section class="countdowns">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-3">
-                    <div class="countdown-wrapper">
-                        <h1 class="count-number">250+</h1>
-                        <p>Trainees</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 text-md-center">
-                    <div class="countdown-wrapper">
-                        <h1 class="count-number">20</h1>
-                        <p>Trainers</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 text-md-center">
-                    <div class="countdown-wrapper">
-                        <h1 class="count-number">50</h1>
-                        <p>Courses</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 text-md-end">
-                    <div class="countdown-wrapper">
-                        <h1 class="count-number">120</h1>
-                        <p>Trainees</p>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-6 col-md-3 mb-5 mb-sm-0">
+            <div class="countdown-wrapper">
+                <h1 class="count-number">250+</h1>
+                <p>Trainees</p>
             </div>
+            </div>
+            <div class="col-6 col-md-3 text-end text-sm-center">
+            <div class="countdown-wrapper">
+                <h1 class="count-number">20</h1>
+                <p>Trainers</p>
+            </div>
+            </div>
+            <div class="col-6 col-md-3 text-sm-center">
+            <div class="countdown-wrapper">
+                <h1 class="count-number">50</h1>
+                <p>Courses</p>
+            </div>
+            </div>
+            <div class="col-6 col-md-3 text-end">
+            <div class="countdown-wrapper">
+                <h1 class="count-number">120</h1>
+                <p>Trainees</p>
+            </div>
+            </div>
+        </div>
         </div>
     </section>
 
     <!-- testimonials  -->
     <section class="testimonial section-padding">
         <div class="container">
-            <div class="section-title-wrapper single">
-                <h1 class="section-title">See what our trainees are saying</h1>
-            </div>
-
-            <!-- Testmonial Card -->
-            <div class="owl-carousel testmonialCarousel carousel">
-                <div class="card testmonialCard">
-                    <img class="quoteIcon" src="assets/images/icon-svg/quote.svg" alt="quote">
-                    <p class="text">They promised was it delivered. There is a minor Communication issues. Being not
-                        communicated timely. The experience was really fun and rewarding. I would definitey
-                        recommend to everyone.</p>
-                    <div class="testmonialUser">
-                        <div>
-                            <img src="assets/images/home/testimonial-image-1.png" alt="testimonial-image">
-                        </div>
-                        <div>
-                            <h5>Sheehan Rahman</h5>
-                            <h6>Trainee</h6>
-                        </div>
-                    </div>
+        <div class="section-title-wrapper single">
+            <h1 class="section-title">See what our trainees are saying</h1>
+        </div>
+        </div>
+        <!-- Testmonial Card -->
+        <div class="container">
+        <div class="owl-carousel testmonialCarousel carousel">
+            <div class="card testmonialCard">
+            <img class="quoteIcon" src="assets/images/icon-svg/quote.svg" alt="quote">
+            <p class="text">They promised was it delivered. There is a minor Communication issues. Being not
+                communicated timely. The experience was really fun and rewarding. I would definitey
+                recommend to everyone.</p>
+            <div class="testmonialUser">
+                <div>
+                <img src="assets/images/home/testimonial-image-1.png" alt="testimonial-image">
                 </div>
-                <div class="card testmonialCard">
-                    <img class="quoteIcon" src="assets/images/icon-svg/quote.svg" alt="quote">
-                    <p class="text">They promised was it delivered. There is a minor Communication issues. Being not
-                        communicated timely. The experience was really fun and rewarding. I would definitey
-                        recommend to everyone.</p>
-
-                    <div class="testmonialUser">
-                        <div>
-                            <img src="assets/images/home/testimonial-image-2.png" alt="testimonial-image">
-                        </div>
-                        <div>
-                            <h5>Shaon Minhaj</h5>
-                            <h6>Trainee</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="card testmonialCard">
-                    <img class="quoteIcon" src="assets/images/icon-svg/quote.svg" alt="quote">
-                    <p class="text">They promised was it delivered. There is a minor Communication issues. Being not
-                        communicated timely. The experience was really fun and rewarding. I would definitey
-                        recommend to everyone.</p>
-
-                    <div class="testmonialUser">
-                        <div>
-                            <img src="assets/images/home/testimonial-image-3.png" alt="testimonial-image">
-                        </div>
-                        <div>
-                            <h5>Anan Meem</h5>
-                            <h6>Trainee</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="card testmonialCard">
-                    <img class="quoteIcon" src="assets/images/icon-svg/quote.svg" alt="quote">
-                    <p class="text">They promised was it delivered. There is a minor Communication issues. Being not
-                        communicated timely. The experience was really fun and rewarding. I would definitey
-                        recommend to everyone.</p>
-
-                    <div class="testmonialUser">
-                        <div>
-                            <img src="assets/images/home/testimonial-image-1.png" alt="testimonial-image">
-                        </div>
-                        <div>
-                            <h5>Shaon Minhaj</h5>
-                            <h6>Trainee</h6>
-                        </div>
-                    </div>
+                <div>
+                <h5>Sheehan Rahman</h5>
+                <h6>Trainee</h6>
                 </div>
             </div>
+            </div>
+            <div class="card testmonialCard">
+            <img class="quoteIcon" src="assets/images/icon-svg/quote.svg" alt="quote">
+            <p class="text">They promised was it delivered. There is a minor Communication issues. Being not
+                communicated timely. The experience was really fun and rewarding. I would definitey
+                recommend to everyone.</p>
+
+            <div class="testmonialUser">
+                <div>
+                <img src="assets/images/home/testimonial-image-2.png" alt="testimonial-image">
+                </div>
+                <div>
+                <h5>Shaon Minhaj</h5>
+                <h6>Trainee</h6>
+                </div>
+            </div>
+            </div>
+            <div class="card testmonialCard">
+            <img class="quoteIcon" src="assets/images/icon-svg/quote.svg" alt="quote">
+            <p class="text">They promised was it delivered. There is a minor Communication issues. Being not
+                communicated timely. The experience was really fun and rewarding. I would definitey
+                recommend to everyone.</p>
+
+            <div class="testmonialUser">
+                <div>
+                <img src="assets/images/home/testimonial-image-3.png" alt="testimonial-image">
+                </div>
+                <div>
+                <h5>Anan Meem</h5>
+                <h6>Trainee</h6>
+                </div>
+            </div>
+            </div>
+            <div class="card testmonialCard">
+            <img class="quoteIcon" src="assets/images/icon-svg/quote.svg" alt="quote">
+            <p class="text">They promised was it delivered. There is a minor Communication issues. Being not
+                communicated timely. The experience was really fun and rewarding. I would definitey
+                recommend to everyone.</p>
+
+            <div class="testmonialUser">
+                <div>
+                <img src="assets/images/home/testimonial-image-1.png" alt="testimonial-image">
+                </div>
+                <div>
+                <h5>Shaon Minhaj</h5>
+                <h6>Trainee</h6>
+                </div>
+            </div>
+            </div>
+        </div>
         </div>
     </section>
 
     <!-- footer -->
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8 col-lg-9">
-                    <div class="footer-logo-wrapper">
-                        <a href="/" class="d-block">
-                            <img src="assets/images/logo/footer-logo.svg" alt="logo">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3 align-self-end">
-                    <div class="social-wrapper">
-                        <ul>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <img class="img-fluid" src="assets/images/icon-svg/facebook.svg" alt="facebook" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <img class="img-fluid" src="assets/images/icon-svg/instagram.svg" alt="instagram" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <img class="img-fluid" src="assets/images/icon-svg/twitter.svg" alt="twitter" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-9">
+            <div class="footer-logo-wrapper">
+                <a href="/" class="d-block">
+                <img src="assets/images/logo/footer-logo.svg" alt="logo">
+                </a>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-8 col-lg-9">
-                    <div class="footer-info-box footer-title">
-                        <h5>About ICA</h5>
-                        <p class="text">
-                            Interport Corporate Academy (ICA) is a sister concern of Interport Group and has been formed
-                            in 2016 with the vision to develop skilled human resources in the supply chain, logistics
-                            and transport sector in Bangladesh. ICA offers a wide range of certificate courses and
-                            professional development programs through its world class resource persons using state of
-                            the art facilities and highly effective work based learning processes. Interport Corporate
-                            Academy is also accredited by the Chartered Institute of Logistics and Transport (CILT),
-                            International (UK) to provide the globally recognized CILT International Diploma and
-                            Certificate courses in Logistics and Transport in Bangladesh.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="footer-contact-box footer-title">
-                        <h5>Contact Us</h5>
-                        <ul>
-                            <li>
-                                <p class="icon">
-                                    <img class="img-fluid" src="assets/images/icon-svg/location.svg" alt="location" />
-                                </p>
-                                <p class="address">MHK Terminal (5th Floor), 110 Kazi Nazrul Islam Avenue, Bangla Motor,
-                                    Dhaka-1000, Bangladesh</p>
-                            </li>
-                            <li>
-                                <p class="icon">
-                                    <img class="img-fluid" src="assets/images/icon-svg/land-phone.svg"
-                                        alt="land-phone" />
-                                </p>
-                                <p>+88 02 48311665</p>
-                            </li>
-                            <li>
-                                <p class="icon">
-                                    <img class="img-fluid" src="assets/images/icon-svg/email.svg" alt="mail-box" />
-                                </p>
-                                <p>info@interport.org</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="copyright">
-                        <p>&copy; Copyright 2020 -
-                            <script>document.write(new Date().getFullYear())</script>
-                        </p>
-                        <div class="gray-round">
-                            <div></div>
-                        </div>
-                        <p>All rights reserved by <a href="index.html" class="text-reset">Antopolis</a></p>
-                    </div>
-                </div>
+            <div class="col-12 col-md-4 col-lg-3 align-self-end mt-4 mt-sm-0">
+            <div class="social-wrapper">
+                <ul>
+                <li>
+                    <a href="#" target="_blank">
+                    <img class="img-fluid" src="assets/images/icon-svg/facebook.svg" alt="facebook" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                    <img class="img-fluid" src="assets/images/icon-svg/instagram.svg" alt="instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                    <img class="img-fluid" src="assets/images/icon-svg/twitter.svg" alt="twitter" />
+                    </a>
+                </li>
+                </ul>
             </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-9">
+            <div class="footer-info-box footer-title">
+                <h5>About ICA</h5>
+                <p class="text">
+                Interport Corporate Academy (ICA) is a sister concern of Interport Group and has been formed in 2016 with
+                the vision to develop skilled human resources in the supply chain, logistics and transport sector in
+                Bangladesh. ICA offers a wide range of certificate courses and professional development programs through
+                its world class resource persons using state of the art facilities and highly effective work based
+                learning processes. Interport Corporate Academy is also accredited by the Chartered Institute of Logistics
+                and Transport (CILT), International (UK) to provide the globally recognized CILT International Diploma and
+                Certificate courses in Logistics and Transport in Bangladesh.
+                </p>
+            </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 mt-4 mt-sm-0">
+            <div class="footer-contact-box footer-title">
+                <h5>Contact Us</h5>
+                <ul>
+                <li>
+                    <p class="icon">
+                    <img class="img-fluid" src="assets/images/icon-svg/location.svg" alt="location" />
+                    </p>
+                    <p class="address">MHK Terminal (5th Floor), 110 Kazi Nazrul Islam Avenue, Bangla Motor, Dhaka-1000,
+                    Bangladesh</p>
+                </li>
+                <li>
+                    <p class="icon">
+                    <img class="img-fluid" src="assets/images/icon-svg/land-phone.svg" alt="land-phone" />
+                    </p>
+                    <p>+88 02 48311665</p>
+                </li>
+                <li>
+                    <p class="icon">
+                    <img class="img-fluid" src="assets/images/icon-svg/email.svg" alt="mail-box" />
+                    </p>
+                    <p>info@interport.org</p>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+            <div class="copyright">
+                <p>&copy; Copyright 2020 -
+                <script>document.write(new Date().getFullYear())</script>
+                </p>
+                <div class="gray-round">
+                <div></div>
+                </div>
+                <p>All rights reserved by <a href="index.html" class="text-reset">Antopolis</a></p>
+            </div>
+            </div>
+        </div>
         </div>
     </footer>
 
