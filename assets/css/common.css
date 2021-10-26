@@ -236,10 +236,10 @@ body.active .nav-overlay {
         line-height: 4.2rem;
     }
     .section-padding, .section-padding-bottom {
-        padding-bottom: 12rem;
+        padding-bottom: 10rem;
     }
     .section-padding, .section-padding-top {
-        padding-top: 12rem;
+        padding-top: 10rem;
     }
 
     .section-head-group .title-box {

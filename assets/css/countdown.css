@@ -20,11 +20,13 @@
 
 /* ===== box countdonw ===== */
 .my-courses {
+    padding-top: 5.8rem;
     padding-bottom: 5.8rem;
     border-bottom: 1px solid var(--gray);
 }
 .countdown-box-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -51,6 +53,18 @@
 
 /* ===== responsive start ===== */
 @media (max-width: 575.98px) {
+    .my-courses {
+        padding-top: 3.2rem;
+        padding-bottom: 5.8rem;
+    }
+    .countdown-box-wrapper {
+        margin-top: -1.5rem;
+        margin-bottom: -1.5rem;
+    }
+    .countdown-box {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
     .countdowns {
         padding: 6rem 0;
     }

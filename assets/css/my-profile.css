@@ -1,3 +1,6 @@
+.my-profile {
+    padding-top: 9.2rem;
+}
 .my-profile .my-profile-box {
     max-width: 45rem;
     width: 100%;
@@ -37,6 +40,9 @@
 }
 
 @media (max-width: 767.98px) {
+    .my-profile {
+        padding-top: 3.2rem;
+    }
     .my-profile .profile-pic img {
         width: 120px;
         height: 120px;
@@ -45,12 +51,12 @@
         margin-bottom: 32px;
     }
     .my-profile .profile-content span {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 15px;
+        line-height: 22px;
         margin-bottom: 4px;
     }
     .my-profile .profile-content p {
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 15px;
+        line-height: 19px;
     }
 }
