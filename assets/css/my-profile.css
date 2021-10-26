@@ -15,12 +15,12 @@
     height: 16rem;
     border-radius: 50%;
 }
-.my-profile .profile-wapper .edit-profile-btn {
+/* .my-profile .profile-wapper .edit-profile-btn {
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     display: block;
-}
+} */
 .my-profile .profile-content ul li:not(:last-child) {
     margin-bottom: 4.8rem;
 }
@@ -41,7 +41,7 @@
         width: 120px;
         height: 120px;
     }
-    .my-profile .profile-content ul li:not(:last-child) {
+    .my-profile .profile-content ul li:not(:last-child), .my-profile .profile-content ul li:last-child {
         margin-bottom: 32px;
     }
     .my-profile .profile-content span {

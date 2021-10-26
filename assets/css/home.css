@@ -1,3 +1,6 @@
+.index-hero {
+    margin-top: 1.6rem;
+}
 .index-hero-carousel .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
