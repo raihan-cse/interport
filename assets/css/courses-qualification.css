@@ -61,3 +61,76 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+
+/* ===== responsive start ===== */
+@media (max-width: 575.98px) {
+    .left-control-box {
+        padding: 5rem 3.2rem 7rem;
+        position: relative;
+    }
+    .courses-qualification-content {
+        padding: 5rem 0 7rem;
+        border-left: 0;
+    }
+    .title-filter-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .filter-btn-box {
+        flex: 0 0 62px;
+        max-width: 62px;
+    }
+    .filter-btn {
+        display: inline-block;
+        border: 2px solid var(--gray-4);
+        border-radius: 1rem;
+        padding: 1rem 1.2rem;
+    }
+    .filter-btn img {
+        max-width: 24px;
+    }
+
+    /* fixed fillter box */
+    .fixed-left-control-inner {
+        position: fixed;
+        top: 0;
+        right: -411px;
+        max-width: 411px;
+        width: 100%;
+        background: var(--white);
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        z-index: 1090;
+        transition: right .3s ease-in-out;
+    }
+    .fixed-left-control-wrapper.active .fixed-left-control-inner {
+        right: 0;
+    }
+    .fixed-left-control-wrapper .filter-box-overaly {
+        position: fixed;
+        top: 0;
+        right: 100%;
+        bottom: 0;
+        left: 0;
+        background: rgba(34, 68, 151, 0.7);
+        z-index: 1090;
+        transition: right .2s ease-in-out;
+    }
+    .fixed-left-control-wrapper.active  .filter-box-overaly {
+        right: 0;
+    }
+    .filter-close-btn {
+        position: absolute;
+        top: 1.6rem;
+        right: 1.6rem;
+        border: 0;
+        background-color: transparent;
+        z-index: 1090;
+    }
+}
+
+
+

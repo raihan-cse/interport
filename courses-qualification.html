@@ -108,7 +108,7 @@
     <section class="courses-qualification">
         <div class="container-fluid">
             <div class="row g-0">
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-3 d-none d-sm-block">
                     <div class="left-control-box sticky-top">
                         <div class="row">
                             <div class="col-12">
@@ -181,7 +181,17 @@
                 <div class="col-12 col-md-9">
                     <div class="courses-qualification-content">
                         <div class="section-title-wrapper">
-                            <h1 class="title">Courses & Qualifications</h1>
+                            <h1 class="title d-none d-sm-block">Courses & Qualifications</h1>
+                            <div class="title-filter-group d-sm-none">
+                                <div class="title-box">
+                                    <h1 class="title">Courses & Qualifications</h1>
+                                </div>
+                                <div class="filter-btn-box text-end">
+                                    <a href="#" class="filter-btn">
+                                        <img src="assets/images/icon-svg/filter-black.png" alt="filter" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-lg-4 qc-card-wrapper">
@@ -508,6 +518,80 @@
             </div>
         </div>
     </section>
+
+    <div class="fixed-left-control-wrapper d-sm-none">
+        <div class="filter-box-overaly"></div>
+        <div class="fixed-left-control-inner">
+            <button class="filter-close-btn">
+                <img src="assets/images/icon-svg/close.svg" alt="">
+            </button>
+            <div class="left-control-box">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="search-title">Let us assist you</h4>
+                        <div class="search-wrapper">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search Courses">
+                                <button class="" type="submit">
+                                    <img src="assets/images/icon-svg/search.svg" alt="search">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h4>Course Type</h4>
+                        <div class="custom-checkbox-wrapper">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="ctCheckbox1" value="option1" name=""
+                                    checked>
+                                <label class="form-check-label" for="ctCheckbox1">Professional Qualification
+                                    Programs</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="ctCheckbox2" value="option1" name="">
+                                <label class="form-check-label" for="ctCheckbox2">Online Courses</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h4>Course Availability</h4>
+                        <div class="custom-checkbox-wrapper">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="caCheckbox1" value="option1" name=""
+                                    checked>
+                                <label class="form-check-label" for="caCheckbox1">Open for Registration</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="caCheckbox2" value="option1" name="">
+                                <label class="form-check-label" for="caCheckbox2">Registration Closed</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="caCheckbox3" value="option1" name="">
+                                <label class="form-check-label" for="caCheckbox3">Upcoming Courses</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h4>Select Tags</h4>
+                        <div class="search-wrapper">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search Tags">
+                                <button class="" type="submit">
+                                    <img src="assets/images/icon-svg/search.svg" alt="search">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- footer -->
     <footer class="footer">

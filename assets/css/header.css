@@ -72,6 +72,9 @@
 
 
 /* ===== small device navbar start ===== */
+.nav-small-device {
+    z-index: 1090;
+}
 .nav-small-device .header-top {
     width: 100%;
     display: flex;

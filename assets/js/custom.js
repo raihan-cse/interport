@@ -85,4 +85,10 @@ $(document).ready(function () {
     $('.header-step.header-step-three').removeClass('is-active');
   })
 
+
+  // filter right side
+  $('.filter-btn, .filter-box-overaly, .filter-close-btn').on('click', function () {
+    $('.fixed-left-control-wrapper').toggleClass('active');
+  })
+
 })
