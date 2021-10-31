@@ -1,4 +1,4 @@
-.trainers-hero {
+.trainers-hero, .trainers-details {
     margin-top: 1.6rem;
 }
 .trainers-hero-inner {
@@ -103,6 +103,20 @@
 
 
 /* ===== responsive start ===== */
+@media (max-width: 1919.98px) {
+    /* trainers details */
+   .trainers-details .content-wrapper {
+       padding-left: 4.2rem;
+   }
+
+}
+@media (max-width: 991.98px) {
+     /* trainers details */
+    .trainers-details .content-wrapper {
+        padding-top: 2.4rem;
+    }
+
+}
 @media (max-width: 575.98px) {
     .trainers-card-wrapper .card-body {
         min-height: auto;
@@ -115,7 +129,7 @@
         padding-left: 0;
         padding-right: 0;
     }
-    .trainers-hero {
+    .trainers-hero, .trainers-details {
         margin-top: 2.4rem;
     }
     .trainers-hero-content {
@@ -132,12 +146,6 @@
     }
 
     /* trainers details */
-    .trainers-details .image-wrapper {
-        margin-top: 4.2rem;
-    }
-    .trainers-details .content-wrapper {
-        padding-top: 2.4rem;
-    }
     .trainers-details .content-wrapper .relation, .trainers-details .content-wrapper .organization {
         font-size: 1.8rem;
         line-height: 2.4rem;
