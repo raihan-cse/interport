@@ -214,6 +214,7 @@ body.active .nav-overlay {
 }
 
 
+@media (max-width: 1919.98px) {}
 @media (max-width: 1399.98px) {
     .carousel .owl-nav button.owl-next {
         right: -7%;
