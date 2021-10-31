@@ -333,6 +333,7 @@
 .form-floating>.form-control, .form-floating>label {
     padding: 2.4rem 2.4rem;
 }
+
 .form-floating>.form-control, .form-floating>.form-select {
     height: calc(7rem + 1px);
 }

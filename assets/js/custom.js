@@ -92,3 +92,43 @@ $(document).ready(function () {
   })
 
 })
+
+// Password Toogler
+// function passwordShow() {
+
+//   if ($('.password').attr('type') === 'password') {
+//       $('.password').attr('type', 'text');
+//   } else {
+//       $('.password').attr('type', 'password');
+
+//   }
+// }
+
+
+// function confirmPasswordShow() {
+
+//   if ($('.confirmPassword').attr('type') === 'password') {
+//       $('.confirmPassword').attr('type', 'text');
+//   } else {
+//       $('.confirmPassword').attr('type', 'password');
+
+//   }
+// }
+
+
+
+// let play = function(){
+//   document.getElementById("tAudio").play();
+// }
+// $(document).on('click','#playButton',function(){
+//   $('#tAudio').get(0).play();
+// });
+
+// $('#playButton').click(function () {
+//   console.log('hello');
+//   $('#tAudio').get(0).play();
+// })
+// $(document).ready(function(event){
+//   // event.stopPropagation();
+//   $('#playButton').trigger('click');
+// })
