@@ -51,12 +51,12 @@ $(document).ready(function () {
   })
 
   // program details page small device form steper
-  $('#op3-tab').on('click', function(e){
+  $('#op3-tab').on('click', function (e) {
     e.preventDefault();
     $('#op2-tab').trigger('click');
   })
 
-  $('.small-device-enroll-start-btn').on('click', function(e) {
+  $('.small-device-enroll-start-btn').on('click', function (e) {
     e.preventDefault();
     $(this).addClass('deactive');
     $('.input-field-wrapper.sd-form-one').collapse('toggle');
@@ -93,7 +93,7 @@ $(document).ready(function () {
 
 
   // trigger modal close button when login or create click
-  $('p span').on('click', function() {
+  $('p span').on('click', function () {
     $('.modal button').trigger('click');
   })
 
@@ -106,25 +106,23 @@ $(document).ready(function () {
 
 })
 
-// Password Toogler
+//date field custom format/placeholder
+document.getElementById('datePicker').valueAsDate = new Date();
+
+// Password show/hide
 function passwordShow() {
-
   if ($('.password').attr('type') === 'password') {
-      $('.password').attr('type', 'text');
+    $('.password').attr('type', 'text');
   } else {
-      $('.password').attr('type', 'password');
-
+    $('.password').attr('type', 'password');
   }
 }
 
-
 function confirmPasswordShow() {
-
   if ($('.confirmPassword').attr('type') === 'password') {
-      $('.confirmPassword').attr('type', 'text');
+    $('.confirmPassword').attr('type', 'text');
   } else {
-      $('.confirmPassword').attr('type', 'password');
-
+    $('.confirmPassword').attr('type', 'password');
   }
 }
 
