@@ -24,18 +24,31 @@
     padding-bottom: 5.8rem;
     border-bottom: 1px solid var(--gray);
 }
-.countdown-box-wrapper {
+.my-courses .nav {
+    display: initial;
+}
+/* .countdown-box-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
+} */
 .countdown-box-wrapper button {
     border: 0;
     background-color: transparent;
+    width: 100%;
+}
+.countdown-box-wrapper .row {
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
+}
+.countdown-box-wrapper .row >* {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 .countdown-box-wrapper .countdown-box-inner {
-    width: 14rem;
+    /* width: 14rem; */
+    width: 100%;
     border-radius: .5rem;
     border: 1px solid var(--gray);
     padding: 2.2rem 2rem;
@@ -57,14 +70,18 @@
         padding-top: 3.2rem;
         padding-bottom: 5.8rem;
     }
-    .countdown-box-wrapper {
+    .countdown-box-wrapper .row {
         margin-top: -1.5rem;
         margin-bottom: -1.5rem;
     }
-    .countdown-box {
+    .countdown-box-wrapper .row>* {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
+    /* .countdown-box {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    } */
     .countdowns {
         padding: 6rem 0;
     }
