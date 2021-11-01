@@ -11,14 +11,16 @@
 body .nav-overlay {
     transition: all 0.3s ease-in-out;
 }
-body.active .nav-overlay {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: -100px;
-    background: rgba(34, 68, 151, 0.7);
-    z-index: 1010;
+@media (max-width: 991.98px) {
+    body.active .nav-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: -100px;
+        background: rgba(34, 68, 151, 0.7);
+        z-index: 1010;
+    }
 }
 .section-title, .title, .count-number {
     font-family: 'Inter', sans-serif;
