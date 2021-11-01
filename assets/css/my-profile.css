@@ -40,6 +40,44 @@
 }
 
 
+/* edit profile page */
+.edit-profile-page {
+    padding-top: 4.2rem;
+}
+.edit-profile-page .container {
+    max-width: 536px;
+}
+.upload-picture {
+    text-align: center;
+}
+.upload-picture img {
+    width: 16rem;
+    height: 16rem;
+}
+input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.upload-picture span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #141414;
+    display: block;
+}
+.upload-picture .upload-picture-inner {
+    margin-bottom: 4.8rem;
+}
+.upload-picture label {
+    cursor: pointer;
+}
+
+.edit-profile-page .input-field-wrapper>* {
+    margin-bottom: 2.4rem;
+}
+
+
 @media (max-width: 991.98px) {
     .my-profile .section-title-wrapper {
         padding-top: 5rem;
@@ -71,5 +109,13 @@
         flex: 0 0 60%;
         max-width: 60%;
         margin-bottom: 0;
+    }
+
+    .upload-picture {
+        text-align: left;
+    }
+    .upload-picture img {
+        width: 64px;
+        height: 64px;
     }
 }

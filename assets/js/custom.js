@@ -97,6 +97,13 @@ $(document).ready(function () {
     $('.modal button').trigger('click');
   })
 
+
+  // edit profile image 
+  $('#fileUpload').change(function () {
+    const url = window.URL.createObjectURL(this.files[0]);
+    $('#uplodedImg').attr('src', url);
+  })
+
 })
 
 // Password Toogler
