@@ -91,44 +91,35 @@ $(document).ready(function () {
     $('.fixed-left-control-wrapper').toggleClass('active');
   })
 
+
+  // trigger modal close button when login or create click
+  $('p span').on('click', function() {
+    $('.modal button').trigger('click');
+  })
+
 })
 
 // Password Toogler
-// function passwordShow() {
+function passwordShow() {
 
-//   if ($('.password').attr('type') === 'password') {
-//       $('.password').attr('type', 'text');
-//   } else {
-//       $('.password').attr('type', 'password');
+  if ($('.password').attr('type') === 'password') {
+      $('.password').attr('type', 'text');
+  } else {
+      $('.password').attr('type', 'password');
 
-//   }
-// }
-
-
-// function confirmPasswordShow() {
-
-//   if ($('.confirmPassword').attr('type') === 'password') {
-//       $('.confirmPassword').attr('type', 'text');
-//   } else {
-//       $('.confirmPassword').attr('type', 'password');
-
-//   }
-// }
+  }
+}
 
 
+function confirmPasswordShow() {
 
-// let play = function(){
-//   document.getElementById("tAudio").play();
-// }
-// $(document).on('click','#playButton',function(){
-//   $('#tAudio').get(0).play();
-// });
+  if ($('.confirmPassword').attr('type') === 'password') {
+      $('.confirmPassword').attr('type', 'text');
+  } else {
+      $('.confirmPassword').attr('type', 'password');
 
-// $('#playButton').click(function () {
-//   console.log('hello');
-//   $('#tAudio').get(0).play();
-// })
-// $(document).ready(function(event){
-//   // event.stopPropagation();
-//   $('#playButton').trigger('click');
-// })
+  }
+}
+
+
+

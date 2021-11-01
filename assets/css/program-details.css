@@ -305,7 +305,7 @@
 .input-field-wrapper .form-floating {
     margin-bottom: 1.6rem;
 }
-.form-control, .form-select {
+/* .form-control, .form-select {
     font-size: 1.7rem;
     color: var(--black);
     border: 2px solid var(--light-gray);
@@ -336,7 +336,7 @@
 
 .form-floating>.form-control, .form-floating>.form-select {
     height: calc(7rem + 1px);
-}
+} */
 .right-content-box .form-wrapper .box-btn-wrapper.group {
     display: flex;
     justify-content: space-between;
