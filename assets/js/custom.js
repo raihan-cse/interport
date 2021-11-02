@@ -107,8 +107,6 @@ $(document).ready(function () {
 
 })
 
-//date field custom format/placeholder
-document.getElementById('datePicker').valueAsDate = new Date();
 
 // Password show/hide
 function passwordShow() {
