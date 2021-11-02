@@ -94,7 +94,7 @@ $(document).ready(function () {
 
   // trigger modal close button when login or create click
   $('p span').on('click', function () {
-    $('.modal button').trigger('click');
+    $('.modal-close').trigger('click');
   })
 
 
@@ -107,7 +107,7 @@ $(document).ready(function () {
 })
 
 //date field custom format/placeholder
-document.getElementById('datePicker').valueAsDate = new Date();
+// document.getElementById('datePicker').valueAsDate = new Date();
 
 // Password show/hide
 function passwordShow() {

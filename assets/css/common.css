@@ -110,7 +110,6 @@ body .nav-overlay {
     line-height: 6rem;
     letter-spacing: -0.05em;
 }
-
 .carousel .owl-nav button.owl-next, .carousel .owl-nav button.owl-prev {
     position: absolute;
     top: 50%;
@@ -316,9 +315,13 @@ input::-webkit-datetime-edit-fields-wrapper { position: relative; right: 0; cont
 .signin-signup-modal .box-btn-wrapper .box-btn:not(.fill) {
     border: 0;
 }
+
 .signin-signup-modal .box-btn-wrapper .box-btn:not(.fill):hover {
     background: transparent;
     color: var(--blue);
+}
+.signin-signup-modal .box-btn-wrapper .box-btn:first-child {
+    min-width: 12.8rem;
 }
 .signin-signup-modal p {
     margin-top: 4.2rem;
