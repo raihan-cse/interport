@@ -3,6 +3,15 @@
     border: 1px solid var(--gray);
     overflow: hidden;
 }
+.qc-card-wrapper .thumb-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(23, 23, 23, 0.65) 0%, rgba(23, 23, 23, 0) 52.87%);
+}
 .qc-card-wrapper .do-status-box {
     position: absolute;
     left: 2.4rem;
