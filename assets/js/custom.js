@@ -87,7 +87,8 @@ $(document).ready(function () {
 
 
   // filter right side
-  $('.filter-btn, .filter-box-overaly, .filter-close-btn').on('click', function () {
+  $('.filter-btn, .filter-box-overaly, .filter-close-btn').on('click', function (e) {
+    e.preventDefault();
     $('.fixed-left-control-wrapper').toggleClass('active');
   })
 

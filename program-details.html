@@ -831,6 +831,85 @@
     </div>
   </footer>
 
+  <!-- sign in modal -->
+  <div class="modal fade signin-signup-modal" id="signInModal" tabindex="-1" aria-labelledby="singInModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close">
+          <img src="assets/images/icon-svg/close.svg" alt="close">
+        </button>
+        <div class="modal-body">
+          <img class="brand-logo" src="assets/images/logo/header-logo.svg" alt="log">
+          <h1 class="title">Welcome!</h1>
+          <h6>Log In to your account</h6>
+          <form action="#">
+            <div class="input-field-wrapper">
+              <div class="form-floating">
+                <input type="text" class="form-control" placeholder="+8801883839298">
+                <label for="phoneNumber">Your Phone Number</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control password" placeholder="password">
+                <label for="password">Your Password</label>
+                <span onclick="passwordShow()" class="passwordToglerBtn"><img src="assets/images/icon-svg/eyeicon.svg" alt="eyeicon"></span>
+              </div>
+              <div class="box-btn-wrapper">
+                <button type="submit" class="box-btn fill">log in</button>
+                <a href="#" class="box-btn">forgot password?</a>
+              </div>
+            </div>
+          </form>
+          <p>Don't have any account? <span data-bs-toggle="modal" data-bs-target="#signUpModal">create one!</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- sign up modal -->
+  <div class="modal fade signin-signup-modal" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close">
+          <img src="assets/images/icon-svg/close.svg" alt="close">
+        </button>
+        <div class="modal-body">
+          <img class="brand-logo" src="assets/images/logo/header-logo.svg" alt="log">
+          <h1 class="title">Welcome!</h1>
+          <h6>Log In to your account</h6>
+          <form action="#">
+            <div class="input-field-wrapper">
+              <div class="form-floating">
+                <input type="text" class="form-control" placeholder="demo name">
+                <label for="name">Your Name</label>
+              </div>
+              <div class="form-floating">
+                <input type="text" class="form-control" placeholder="+8801883839298">
+                <label for="phoneNumber">Your Phone Number</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control password" placeholder="password">
+                <label for="password">Your Password</label>
+                <span onclick="passwordShow()" class="passwordToglerBtn"><img src="assets/images/icon-svg/eyeicon.svg"
+                    alt="eyeicon"></span>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control confirmPassword" placeholder="password">
+                <label for="password">Confirm Password</label>
+                <span onclick="confirmPasswordShow()" class="passwordToglerBtn"><img
+                    src="assets/images/icon-svg/eyeicon.svg" alt=""></span>
+              </div>
+              <div class="single-btn-wrapper">
+                <button type="submit" class="box-btn fill w-100">sign up</button>
+              </div>
+            </div>
+          </form>
+          <p>Already have an account? <span data-bs-toggle="modal" data-bs-target="#signInModal">log in</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Jquery -->
   <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
   <!--bootstrap js-->
