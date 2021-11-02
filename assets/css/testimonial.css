@@ -55,6 +55,17 @@
         height: 2.4rem;
         margin-bottom: 1.6rem;
     }
+    .testmonialUser h5 {
+        font-weight: bold;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        margin-bottom: 0;
+    }
+    .testmonialUser h6 {
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
     .testmonialCard .text {
         padding-bottom: 3.5rem;
     }

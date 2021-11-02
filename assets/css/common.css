@@ -423,4 +423,26 @@ input::-webkit-datetime-edit-fields-wrapper { position: relative; right: 0; cont
     .signin-signup-modal .modal-content {
         padding: 4rem 3rem;
     }
+    .signin-signup-modal .brand-logo {
+        width: 16.6rem;
+        margin-bottom: 1.8rem;
+    }
+    .signin-signup-modal .title {
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+    }
+    .signin-signup-modal h6 {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        margin-bottom: 2.4rem;
+    }
+    .signin-signup-modal p {
+        margin-top: 3.2rem;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+    }
+    .signin-signup-modal p > span {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
 }

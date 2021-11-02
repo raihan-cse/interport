@@ -6,7 +6,7 @@
     background: var(--white);
     padding: 1.8rem 4rem;
     border-bottom: 1px solid var(--light-gray);
-    z-index: 1090;
+    z-index: 1030;
 }
 @media (max-width: 991.98px) {
     .nav-large-device {
@@ -73,7 +73,7 @@
 
 /* ===== small device navbar start ===== */
 .nav-small-device {
-    z-index: 1090;
+    z-index: 1030;
 }
 .nav-small-device .header-top {
     width: 100%;
