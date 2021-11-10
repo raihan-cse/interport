@@ -47,17 +47,18 @@
     <div class="header-right-box">
       <div class="header-right-inner">
         <div class="user-wrapper">
-          <a href="#signInModal" data-bs-toggle="modal" class="box-btn">log in</a>
-          <!-- <div class="dropdown">
-              <a class="dropdown-toggle" href="#" id="#navUser" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                niloy borua
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a href="my-profile.html" class="dropdown-item">My Profile</a></li>
-                <li><a href="#" class="dropdown-item">My Orders</a></li>
-                <li><a href="#" class="dropdown-item">Sing Out</a></li>
-              </ul>
-            </div> -->
+          <!-- <a href="#signInModal" data-bs-toggle="modal" class="box-btn">log in</a> -->
+          <div class="dropdown">
+            <a class="dropdown-toggle" href="#" id="#navUser" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              niloy borua
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a href="my-profile.html" class="dropdown-item">My Profile</a></li>
+              <li><a href="wishlist.html" class="dropdown-item">My Orders</a></li>
+              <li><a href="/" class="dropdown-item">Sing Out</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -84,18 +85,18 @@
           <a href="trainers.html" class="link">Meet Your Trainers</a>
         </div>
         <div class="small-nav-users">
-          <a href="#signInModal" data-bs-toggle="modal" class="box-btn">log in</a>
-          <!-- <div class="small-user-wrapper">
-              <img src="assets/images/global/user-icon.png" alt="user-icon">
-              <div class="user-item-toggle">niloy barua</div>
-              <div class="user-items collapse">
-                <div class="user-items-inner">
-                  <a href="my-profile.html">My Profile</a>
-                  <a href="my-orders.html">My Orders</a>
-                  <a href="/">Sing Out</a>
-                </div>
+          <!-- <a href="#signInModal" data-bs-toggle="modal" class="box-btn">log in</a> -->
+          <div class="small-user-wrapper">
+            <img src="assets/images/global/user-icon.png" alt="user-icon">
+            <div class="user-item-toggle">niloy barua</div>
+            <div class="user-items collapse">
+              <div class="user-items-inner">
+                <a href="my-profile.html">My Profile</a>
+                <a href="wishlist.html">My Orders</a>
+                <a href="/">Sing Out</a>
               </div>
-            </div> -->
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -103,7 +104,7 @@
   <div class="nav-overlay"></div>
   <!-- header / navbar end -->
 
-
+  <!-- program details for large device  -->
   <div class="program-details large-device">
     <div class="container-fluid px-0">
       <div class="row g-0">
@@ -180,7 +181,7 @@
                 <h6 class="me-2">Registration Deadline:</h6>
                 <p>10 October, 2021</p>
               </div>
-              <a href="#" class="box-btn fill start-step-btn">Enroll for tk. 20,000</a>
+              <a href="#" class="box-btn fill start-step-btn" onclick="startStep()">Enroll for tk. 20,000</a>
               <a href="#" onclick="return false" class="box-btn conditional-btn">applying</a>
             </div>
             <div class="trainers-box">
@@ -213,7 +214,7 @@
           <div class="right-content-box">
             <div class="main-content-box">
               <img src="assets/images/program-details/pd-banner.png" alt="banner" class="img-fluid">
-              <div class="inner-content">
+              <div class="inner-content" id="for-test2">
                 <p class="text">Professional Qualification Course</p>
                 <h1 class="section-title">CILT International Certificate in Logistics and Transport</h1>
                 <div class="group-btn-box">
@@ -452,7 +453,7 @@
     </div>
   </div>
 
-  <!-- for mobile device  -->
+  <!-- program details for mobile device  -->
   <div class="program-details small-device">
     <div class="smll-device-hero position-relative">
       <div class="thumb-wrapper">
@@ -598,7 +599,7 @@
                 <form action="#">
                   <div class="small-device-form-step small-device-form-step-one">
                     <div class="enroll-btn-wrapper">
-                      <a href="#" class="box-btn small-device-enroll-start-btn">enroll now</a>
+                      <a type="button" class="box-btn small-device-enroll-start-btn">enroll now</a>
                     </div>
                     <div class="input-field-wrapper sd-form-one collapse">
                       <div class="form-floating">
@@ -919,6 +920,20 @@
 
   <!--custom js-->
   <script src="assets/js/custom.js"></script>
+
+  <script>
+    //large device steper start
+    function startStep() {
+      $('.main-content-box, .start-step-btn').addClass('deactive');
+      $('.box-btn.conditional-btn, .multiple-steps.step-one').addClass('active');
+    }
+
+    if (location.hash == '#start-step') {
+      $('.start-step-btn').trigger('click');
+    }
+    //small device steper start
+    
+  </script>
 </body>
 
 </html>

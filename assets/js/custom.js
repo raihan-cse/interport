@@ -12,12 +12,6 @@ $(document).ready(function () {
 
 
   // program details page large device
-  $('.start-step-btn').on('click', function (e) {
-    // e.preventDefault();
-    $('.main-content-box, .start-step-btn').addClass('deactive');
-    $('.box-btn.conditional-btn, .multiple-steps.step-one').addClass('active');
-  })
-
   $('.submit-application-btn').on('click', function (e) {
     // e.preventDefault();
     $('.box-btn.conditional-btn').html('applied');
