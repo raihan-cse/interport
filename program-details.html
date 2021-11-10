@@ -599,9 +599,9 @@
                 <form action="#">
                   <div class="small-device-form-step small-device-form-step-one">
                     <div class="enroll-btn-wrapper">
-                      <a type="button" class="box-btn small-device-enroll-start-btn">enroll now</a>
+                      <a class="box-btn small-device-enroll-start-btn" onclick="smallSteperStart()">enroll now</a>
                     </div>
-                    <div class="input-field-wrapper sd-form-one collapse">
+                    <div class="input-field-wrapper sd-form-one collapse" id="test">
                       <div class="form-floating">
                         <input type="text" class="form-control" id="nameInput" placeholder="Your Full Name">
                         <label for="nameInput">Your Full Name</label>
@@ -930,8 +930,20 @@
 
     if (location.hash == '#start-step') {
       $('.start-step-btn').trigger('click');
+      $('#op2-tab').trigger('click');
+      $('.small-device-enroll-start-btn').trigger('click');
+      const myCollapse = document.getElementById('test')
+    new bootstrap.Collapse(myCollapse, {
+      toggle: true
+    });
     }
     //small device steper start
+    function smallSteperStart() {
+      $('.small-device-enroll-start-btn').addClass('deactive');
+      $('.small-device-conditional-btn').addClass('active');
+      $('.small-device-start-step-btn').addClass('deactive');
+    }
+    
     
   </script>
 </body>

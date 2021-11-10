@@ -50,13 +50,13 @@ $(document).ready(function () {
     $('#op2-tab').trigger('click');
   })
 
-  $('.small-device-enroll-start-btn').on('click', function (e) {
-    e.preventDefault();
-    $(this).addClass('deactive');
-    $('.input-field-wrapper.sd-form-one').collapse('toggle');
-    $('.small-device-conditional-btn').addClass('active');
-    $('.small-device-start-step-btn').addClass('deactive');
-  })
+  // $('.small-device-enroll-start-btn').on('click', function (e) {
+  //   e.preventDefault();
+  //   $(this).addClass('deactive');
+  //   $('.input-field-wrapper.sd-form-one').collapse('toggle');
+  //   $('.small-device-conditional-btn').addClass('active');
+  //   $('.small-device-start-step-btn').addClass('deactive');
+  // })
 
   $('.small-device-submit-application-btn').on('click', function () {
     $('.input-field-wrapper.sd-form-one, .input-field-wrapper.sd-form-two').collapse('toggle');
