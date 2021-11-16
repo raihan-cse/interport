@@ -57,6 +57,12 @@
     font-size: 2.2rem;
     line-height: 2.6rem;
     font-weight: 700;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
 }
 .qc-card-wrapper .meta-tag-box {
     padding: 3.2rem 0;

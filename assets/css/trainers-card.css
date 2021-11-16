@@ -6,7 +6,7 @@
 .trainers-card-wrapper .card-body {
     padding: 2.4rem;
     color: var(--black);
-    min-height: 15.8rem;
+    /* min-height: 15.8rem; */
 }
 .trainers-card-wrapper .card-body h5 {
     font-size: 1.8rem;
@@ -19,6 +19,14 @@
 }
 .trainers-card-wrapper .card-body p.designation {
     margin: 1.2rem 0 0.6rem;
+}
+.trainers-card-wrapper .card-body h5, .trainers-card-wrapper .card-body p {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
 }
 
 

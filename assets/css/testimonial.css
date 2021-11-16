@@ -13,7 +13,13 @@
 }
 .testmonialCard .text {
     color         : var(--dark-gray);
-    padding-bottom: 6rem;
+    margin-bottom: 6rem;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5;
+           line-clamp: 5; 
+   -webkit-box-orient: vertical;
 }
 .testmonialUser {
     display    : flex;
@@ -67,7 +73,7 @@
         line-height: 2.2rem;
     }
     .testmonialCard .text {
-        padding-bottom: 3.5rem;
+        margin-bottom: 3.5rem;
     }
 }
 
