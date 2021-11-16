@@ -20,6 +20,7 @@
    -webkit-line-clamp: 5;
            line-clamp: 5; 
    -webkit-box-orient: vertical;
+   min-height: 160px;
 }
 .testmonialUser {
     display    : flex;
