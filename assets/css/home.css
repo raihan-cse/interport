@@ -17,6 +17,10 @@
     margin-right: 4px;
     margin-left: 4px;
 }
+.index-hero-carousel .carousel-item {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
 .index-hero-carousel .carousel-caption .section-title {
     color: var(--white);
     margin: 1rem 0 4rem;
