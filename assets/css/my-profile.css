@@ -37,6 +37,7 @@
 .my-profile .profile-content p {
     font-size: 1.8rem;
     line-height: 2.2rem;
+    word-wrap: break-word;
 }
 
 
