@@ -57,6 +57,7 @@
     border-radius: .5rem;
     border: 1px solid var(--green);
     background: rgba(33, 150, 83, 0.07);
+    pointer-events: none;
 }
 
 .csd-box, .trainers-box {
