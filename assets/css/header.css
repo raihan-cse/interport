@@ -8,6 +8,10 @@
     border-bottom: 1px solid var(--light-gray);
     z-index: 1030;
 }
+.nav-large-device .logo-wrapper {
+    max-width: 200px;
+    width: 100%;
+}
 @media (max-width: 991.98px) {
     .nav-large-device {
         display: none;
