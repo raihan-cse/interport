@@ -284,6 +284,9 @@
 .input-field-wrapper .title {
     padding-bottom: 4rem;
 }
+.form-step-two .input-field-wrapper .title {
+    padding-bottom: 2rem;
+}
 .input-field-wrapper .agree-or-not {
     padding: 1.6rem 0;
 }
@@ -311,6 +314,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* payment info box */
+.payment-info-box {
+    padding-bottom: 4rem;
+}
+.payment-info-box ul>li>p>span {
+    font-weight: 700;
+    color: var(--black);
 }
 
 
@@ -547,6 +559,17 @@
     .input-field-wrapper .box-btn, .small-device-conditional-btn {
         width: 100%;
         text-align: center;
+    }
+
+    /* payment info box */
+    .payment-info-box {
+        padding-bottom: 2.4rem;
+    }
+    .payment-info-box ul>li>p {
+        font-size: 14px;
+    }
+    .payment-info-box ul>li>p>span {
+        font-weight: 500;
     }
 
 

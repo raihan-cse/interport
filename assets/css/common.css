@@ -352,7 +352,7 @@ input::-webkit-datetime-edit-fields-wrapper { position: relative; right: 0; cont
 }
 @media (min-width: 1600px) {
     .container {
-        max-width: 1320px;
+        max-width: 1320px; 
     }
 }
 @media (min-width: 1920px) {

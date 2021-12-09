@@ -355,6 +355,23 @@
                     </div>
                     <div class="input-field-wrapper">
                       <h2 class="title">Payment</h2>
+                      <div class="payment-info-box">
+                        <ul>
+                          <li>
+                            <p><span>Account Name: </span>Interport Maritime Limited</p>
+                          </li>
+                          <li>
+                            <p><span>Account No: </span>00733004116</p>
+                          </li>
+                          <li>
+                            <p><span>Bank: </span>Bank Asia Limited</p>
+                          </li>
+                          <li>
+                            <p><span>Branch: </span>Scotia Branch (070276140), Dhaka
+                              bKash 01753757376 (Personal)</p>
+                          </li>
+                        </ul>
+                      </div>
                       <div class="form-floating">
                         <input type="text" class="form-control" id="paInput" placeholder="Enter Payment Amount">
                         <label for="paInput">Enter Payment Amount</label>
@@ -394,12 +411,12 @@
                     <span>Step 1</span>
                     <h6>Application Form</h6>
                   </div>
-                  <div class="header-step header-step-two is-active">
+                  <div class="header-step header-step-two is-active is-completed">
                     <div class="icon"></div>
                     <span>Step 2</span>
                     <h6>Payment</h6>
                   </div>
-                  <div class="header-step header-step-three">
+                  <div class="header-step header-step-three is-active">
                     <div class="icon"></div>
                     <span>Step 3</span>
                     <h6>Course Completion</h6>
@@ -663,6 +680,23 @@
                   </div>
                   <div class="small-device-form-step small-device-form-step-two">
                     <div class="input-field-wrapper sd-form-two collapse">
+                      <div class="payment-info-box">
+                        <ul>
+                          <li>
+                            <p><span>Account Name: </span>Interport Maritime Limited</p>
+                          </li>
+                          <li>
+                            <p><span>Account No: </span>00733004116</p>
+                          </li>
+                          <li>
+                            <p><span>Bank: </span>Bank Asia Limited</p>
+                          </li>
+                          <li>
+                            <p><span>Branch: </span>Scotia Branch (070276140), Dhaka
+                              bKash 01753757376 (Personal)</p>
+                          </li>
+                        </ul>
+                      </div>
                       <div class="form-floating">
                         <input type="text" class="form-control" id="paInput" placeholder="Enter Payment Amount">
                         <label for="paInput">Enter Payment Amount</label>
@@ -931,20 +965,27 @@
     if (location.hash == '#start-step') {
       $('.start-step-btn').trigger('click');
       $('#op2-tab').trigger('click');
-      $('.small-device-enroll-start-btn').trigger('click');
-      const myCollapse = document.getElementById('test')
-    new bootstrap.Collapse(myCollapse, {
-      toggle: true
-    });
+      // $('.small-device-enroll-start-btn').trigger('click');
+      setFormStep();
+
+      const myCollapse = document.getElementById('test');
+      new bootstrap.Collapse(myCollapse, {
+        toggle: true
+      });
     }
     //small device steper start
     function smallSteperStart() {
+      setFormStep();
+      $('.input-field-wrapper.sd-form-one').collapse('toggle');
+    }
+
+
+    function setFormStep() {
       $('.small-device-enroll-start-btn').addClass('deactive');
       $('.small-device-conditional-btn').addClass('active');
       $('.small-device-start-step-btn').addClass('deactive');
     }
-    
-    
+
   </script>
 </body>
 
